@@ -1,4 +1,4 @@
-package Graph;
+// package Graph;
 
 import java.util.ArrayList;
 
@@ -98,6 +98,10 @@ public class Vertex<E> {
 		return index;
 	}
 	
+	/**
+	 * @param v
+	 * @return distance between this and v
+	 */
 	public Integer getDistance(Vertex<E> v)
 	{
 		if(pointers.contains(v) != true)
